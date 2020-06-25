@@ -1,0 +1,30 @@
+- git stash
+- git stash apply
+- git switch [branchname] / git checkout [branchname[
+- git branch -a
+- git branch -r
+- git checkout -b [newBranchname]
+- git checkout --track [remoteBranchname]
+- git checkout -- [filename]
+- git add --patch [filename]
+- git rm [filename]
+- git restore --staged [filename]
+- git rebase -i [Position] z.B. HEAD~4
+- git pull -r
+- git push --force-with-lease
+- git remote add [repoName] [url]
+- git remote set-url [remoteName]  [newUrl]
+- git commit -m "[MessageHeader]" -m "[messageBody]"
+- git push -u [repo] [branch]
+- git diff [filename]
+- git diff [commitA]~ [commitA]
+- git diff -- [filename]
+- git revert [commit]
+- git reset --keep [commit]
+- git cherry-pick [commit]
+
+- git log
+- git status
+- git fetch --prune
+- git merge
+
